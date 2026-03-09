@@ -141,31 +141,6 @@ A quick look at the core structure of the repository:
 
 ---
 
-## 📸 Application Gallery
-
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td width="50%" align="center"><b>Modern Authentication UI</b></td>
-      <td width="50%" align="center"><b>Dynamic PDF Bill Generation</b></td>
-    </tr>
-    <tr>
-      <td>
-        <!-- Add your image link here -->
-        <img src="https://i.ibb.co/6P0xH26/auth.gif" alt="Authentication Interface" width="100%" />
-      </td>
-      <td>
-        <!-- Add your image link here -->
-        <img src="https://i.ibb.co/1qS8yX3/checkout.gif" alt="Order Success Invoice" width="100%" />
-      </td>
-    </tr>
-  </table>
-  <br/>
-  <i>*Replace the placeholder image links above with actual screenshots of your final application before publishing!*</i>
-</div>
-
----
-
 <div align="center">
   <br/>
   <b>Built with ❤️ by You.</b>
