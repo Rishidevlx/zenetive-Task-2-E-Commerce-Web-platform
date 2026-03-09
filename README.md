@@ -1,142 +1,172 @@
 <div align="center">
-  
+
   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7ee69a103362143.5f4b5003fb7cb.gif" alt="Bakery Animation Banner" width="100%" />
 
   <br />
   <br />
 
-  # 🍰 BakingShop - Premium Bakery E-Commerce
+  <h1>🍰 BakingShop - Premium E-Commerce Platform</h1>
   
-  **A fully functional, modern, and highly interactive MERN stack e-commerce application crafted for artisanal bakeries.**
-
-  <p align="center">
-    <a href="https://reactjs.org/">
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    </a>
-    <a href="https://nodejs.org/">
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node JS" />
-    </a>
-    <a href="https://expressjs.com/">
-      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-    </a>
-    <a href="https://www.mongodb.com/">
-      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-    </a>
-    <a href="https://www.framer.com/motion/">
-      <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
-    </a>
+  <p>
+    <b>A modern, fully-functional, and highly interactive MERN stack e-commerce web application crafted for artisanal bakeries. Designed with seamless user experience, stunning animations, and robust backend architecture.</b>
   </p>
 
   <p align="center">
-    <i>Seamless User Experience • Interactive Product Cart • Secure Authentication • Interactive PDF Invoices</i>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node JS" />
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
   </p>
+
+  <p align="center">
+    <a href="#-key-features">Features</a> •
+    <a href="#%EF%B8%8F-technology-stack">Tech Stack</a> •
+    <a href="#-installation--setup">Installation</a> •
+    <a href="#-project-structure">Architecture</a>
+  </p>
+
 </div>
 
 ---
 
-## ✨ Features That Stand Out
+## ✨ Key Features
 
-🍩 **Premium Interactive UI**  
-Designed with `framer-motion` to provide a buttery-smooth scrolling experience, elegant page transitions, and floating 3D glassmorphism cards.
+### 🛍️ Intelligent Shopping Experience
+- **Guest Cart System:** Browse and add items to the cart effortlessly without mandatory login. Data is securely persisted locally.
+- **Dynamic Search:** Seamless search engine integrated into the navigation bar that dynamically filters global products instantly.
+- **Product Reviews & Ratings:** Real-time customer reviews and interactive 5-star rating system on individual product pages.
 
-🛒 **Intelligent Cart System**  
-Browse as a guest and add items directly to your cart effortlessly. The system securely persists guest cart data locally and synchronizes upon authenticating. Complete with **Animated Toast Notifications**!
+### 🎨 Premium Interactive UI
+- **Smooth Animations:** Built with `framer-motion` for buttery-smooth page transitions, scrolling experiences, and floating 3D glassmorphism cards.
+- **Floating Toast Notifications:** Elegant, non-intrusive animated toast popups completely replace generic browser alerts across the app.
+- **Responsive Design:** Flawless experience across desktop, tablet, and mobile devices.
 
-🔐 **Secure Authentication Gateway**  
-Robust JWT-based authentication system guarding the checkout process. Real-time form validations with strict Regex checks ensure clean data entry. 
+### 🔐 Security & Authentication
+- **Secure Gateway:** Robust JSON Web Token (JWT) based authentication system.
+- **Checkout Protection:** Checkout routes are strictly protected, seamlessly routing unauthenticated users to a beautiful login interface.
+- **Advanced Validation:** Real-time form validations with strict Regex constraints (e.g., proper email schemas, strict 10-digit phone numbers).
 
-💳 **Advanced Checkout Flow**  
-Amazon-style checkout page with conditional billing address toggles, dynamic order summarization, and local storage state binding. 
-
-📄 **Automatic PDF Invoice Generation**  
-Upon a successful "Cash on Delivery" or "UPI" transaction, the system routes users to a beautiful Success screen where they can download a dynamically generated, structured PDF Bill containing their exact order schema and details!
-
-🔎 **Functional Search & Filtering**  
-Integrated seamless search engine right into the interactive Navigation Bar that dynamically filters the global product layout.
+### 💳 Advanced Order & Checkout Flow
+- **Amazon-style Checkout:** Dual-column layout with conditional "Billing Address" form toggles based on user selection.
+- **Multiple Payment Options:** Support for standard UPI/Online Payments and Cash on Delivery (COD).
+- **📄 Automatic PDF Invoicing:** Upon successful checkout, the system intelligently generates a beautifully formatted PDF Bill containing the exact order schema, prices, and a unique Order ID, available for immediate download.
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Architecture Layer | Technologies Executed |
+| Domain | Technologies Used |
 | :--- | :--- |
-| **Frontend** | React (Vite), React Router v6, Context API, Framer Motion, Vanilla CSS (Custom Design System), Lucide React (Icons), jsPDF |
-| **Backend** | Node.js, Express.js |
-| **Database** | MongoDB, Mongoose |
+| **Frontend Architecture** | React (Vite), React Router v6, Context API |
+| **Styling & UI Components** | Vanilla CSS (Custom Design System), Framer Motion, Lucide React (Icons) |
+| **Backend API** | Node.js, Express.js, RESTful Architecture |
+| **Database Ecosystem** | MongoDB, Mongoose ODM |
 | **Security & Auth** | JSON Web Tokens (JWT), Bcrypt.js, CORS |
+| **Utilities** | Axios (API Requests), jsPDF & jspdf-autotable (Invoice Generation) |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation & Setup
 
-Follow these steps to set up the project locally on your machine.
+Want to run this project locally? Follow these simple steps.
 
 ### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/en/) and [MongoDB](https://www.mongodb.com/) installed on your machine.
+Make sure you have [Node.js](https://nodejs.org/en/) (v16+) and [MongoDB](https://www.mongodb.com/) installed on your machine.
 
-### Installation
-
-**1. Clone the repository**
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/bakingshop-ecommerce.git
 cd bakingshop-ecommerce
 ```
 
-**2. Install Server Dependencies & Start**
+### 2. Environment Variables Setup
+You will need to create two `.env` files.
+
+Create a `.env` file in the `server` directory:
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string_here
+JWT_SECRET=your_super_secret_jwt_signature_key
+```
+
+Create a `.env` file in the `client` directory:
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+### 3. Install & Start Server (Backend)
+Open a terminal and run:
 ```bash
 cd server
 npm install
 npm run dev
 ```
+*The backend should default to `http://localhost:5000`*
 
-**3. Install Client Dependencies & Start**
+### 4. Install & Start Client (Frontend)
+Open a second terminal and run:
 ```bash
-cd ../client
+cd client
 npm install
 npm run dev
 ```
+*The frontend should default to `http://localhost:5173`*
 
 ---
 
-## ⚙️ Environment Variables
+## 📂 Project Structure
 
-Create `.env` files in both your root server and client folders.
+A quick look at the core structure of the repository:
 
-**Server** (`server/.env`)
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_super_secret_jwt_key
-```
-
-**Client** (`client/.env`)
-```env
-VITE_API_URL=http://localhost:5000
+```text
+📦 bakingshop-ecommerce
+ ┣ 📂 client                  # React Frontend Environment
+ ┃ ┣ 📂 src
+ ┃ ┃ ┣ 📂 components          # Reusable UI parts (Navbar, Footer, ProductCard, etc.)
+ ┃ ┃ ┣ 📂 context             # Global State Management (CartContext, AuthContext)
+ ┃ ┃ ┣ 📂 pages               # Main Views (Home, Checkout, OrderSuccess, etc.)
+ ┃ ┃ ┣ 📜 App.jsx             # Main Router configuration
+ ┃ ┃ ┗ 📜 index.css           # Custom Design System & Variables
+ ┃ ┗ 📜 package.json
+ ┣ 📂 server                  # Node.js/Express Backend Environment
+ ┃ ┣ 📂 config                # Database connection logic
+ ┃ ┣ 📂 controllers           # Request handlers and business logic
+ ┃ ┣ 📂 models                # MongoDB Schemas (User, Product, Order)
+ ┃ ┣ 📂 routes                # Express API Route definitions
+ ┃ ┣ 📜 server.js             # API Entry Point
+ ┃ ┗ 📜 package.json
+ ┗ 📜 README.md
 ```
 
 ---
 
-## 📸 Sneak Peek
+## 📸 Application Gallery
 
 <div align="center">
-  <table>
+  <table width="100%">
     <tr>
-      <td align="center"><b>Modern Auth Pages</b></td>
-      <td align="center"><b>Checkout Validation & Logic</b></td>
+      <td width="50%" align="center"><b>Modern Authentication UI</b></td>
+      <td width="50%" align="center"><b>Dynamic PDF Bill Generation</b></td>
     </tr>
     <tr>
-      <td><img src="https://i.ibb.co/6P0xH26/auth.gif" alt="Auth Page" width="400"/></td>
-      <td><img src="https://i.ibb.co/1qS8yX3/checkout.gif" alt="Checkout Page" width="400"/></td>
+      <td>
+        <!-- Add your image link here -->
+        <img src="https://i.ibb.co/6P0xH26/auth.gif" alt="Authentication Interface" width="100%" />
+      </td>
+      <td>
+        <!-- Add your image link here -->
+        <img src="https://i.ibb.co/1qS8yX3/checkout.gif" alt="Order Success Invoice" width="100%" />
+      </td>
     </tr>
   </table>
   <br/>
-  <i>*Note: Replace sneak peek images with actual UI screenshots for production presentation.*</i>
+  <i>*Replace the placeholder image links above with actual screenshots of your final application before publishing!*</i>
 </div>
 
 ---
 
 <div align="center">
   <br/>
-  Let's build something delicious. 🥐 <br/>
   <b>Built with ❤️ by You.</b>
 </div>
